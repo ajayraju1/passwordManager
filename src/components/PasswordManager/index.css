@@ -1,0 +1,216 @@
+.pm-bg-con {
+  padding: 20px;
+  background: linear-gradient(#9ba9eb, #c3caea);
+  min-height: 100vh;
+  font-family: 'Roboto';
+}
+
+.pm-logo {
+  height: 60px;
+}
+
+.pm-card-con {
+  margin-top: 30px;
+  padding: 20px;
+  background-color: #5763a5;
+  border-radius: 10px;
+  color: #fff;
+}
+
+.pm-img {
+  width: 100%;
+}
+
+.pm-inp-card-con {
+  padding: 20px;
+  background-color: #454f84;
+  border-radius: 15px;
+  text-align: right;
+}
+
+.pm-inp-card-heading {
+  font-size: 20px;
+  color: #f8fafc;
+  margin-bottom: 20px;
+  font-weight: 500;
+  text-align: left;
+}
+
+.pm-inp-con {
+  background-color: #f8fafc;
+  height: 60px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.pm-inp-img {
+  height: 30px;
+  margin: 0 15px;
+}
+
+.hr-line {
+  height: 100%;
+  background-color: #c3caea;
+}
+
+.pm-inp {
+  height: 100%;
+  width: 100%;
+  border: 0;
+  outline: none;
+  padding: 10px;
+  font-weight: bold;
+  font-size: 18px;
+  background-color: #00000000;
+}
+
+.pm-add-btn {
+  width: 80px;
+  height: 30px;
+  background-color: #0b69ff;
+  border: 0;
+  border-radius: 3px;
+  font-size: 16px;
+  color: #fff;
+}
+
+.password-count-search-con {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.password-heading-count-con {
+  display: flex;
+  align-items: center;
+}
+
+.password-sub-heading {
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+.password-count {
+  font-size: 18px;
+  font-weight: bold;
+  border: solid 1px #94a3b8;
+  padding: 0 20px;
+  border-radius: 20px;
+}
+
+.password-search {
+  height: 40px;
+  border-radius: 3px;
+  width: 250px;
+}
+
+.password-hr {
+  height: 3px;
+  border: 0;
+  background-color: #7683cb;
+}
+
+.show-password-con {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.show-password-inp {
+  height: 25px;
+  width: 25px;
+  margin-right: 10px;
+}
+
+.show-password-txt {
+  font-size: 22px;
+}
+
+.no-password-con {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.no-password-img {
+  width: 100%;
+}
+
+.no-password-txt {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.passwords-list-con {
+  padding: 0;
+  list-style: none;
+}
+
+@media (min-width: 768px) {
+  .pm-bg-con {
+    padding: 30px 100px;
+  }
+
+  .pm-logo {
+    height: 80px;
+  }
+
+  .pm-card-con {
+    padding: 20px 50px 0 50px;
+  }
+
+  .pm-card-top-con {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 40px 0;
+  }
+
+  .pm-img {
+    width: 50%;
+    height: 400px;
+    order: 1;
+    object-fit: contain;
+  }
+
+  .pm-inp-card-con {
+    height: fit-content;
+  }
+
+  .password-sub-heading {
+    font-size: 30px;
+  }
+
+  .password-count {
+    font-size: 32px;
+  }
+
+  .password-search {
+    width: 300px;
+  }
+
+  .show-password-inp {
+    height: 30px;
+    width: 30px;
+  }
+
+  .show-password-txt {
+    font-size: 25px;
+  }
+
+  .no-password-img {
+    width: 50%;
+    height: 200px;
+    object-fit: contain;
+  }
+
+  .passwords-list-con {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2%;
+  }
+}

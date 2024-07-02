@@ -1,0 +1,105 @@
+.password-item-con {
+  border: 1px solid #7683cb;
+  padding: 15px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.profile-icon-txt-con {
+  display: flex;
+  align-items: center;
+}
+
+.profile-con {
+  height: 60px;
+  width: 60px;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 15px;
+}
+
+.profile-txt-con {
+  height: 100px;
+}
+
+.website-name {
+  font-size: 22px;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.username {
+  font-size: 20px;
+  margin: 0;
+}
+
+.password-img {
+  width: 150px;
+  object-fit: contain;
+  margin-top: 20px;
+}
+
+.delete-btn {
+  background-color: #00000000;
+  border: 0;
+}
+
+.delete-img {
+  height: 40px;
+}
+
+.yellow {
+  background-color: #f59e0b;
+}
+
+.green {
+  background-color: #10b981;
+}
+
+.orange {
+  background-color: #f97316;
+}
+
+.light-green {
+  background-color: #14b8a6;
+}
+
+.red {
+  background-color: #b91c1c;
+}
+
+.blue {
+  background-color: #0ea5e9;
+}
+
+.grey {
+  background-color: #64748b;
+}
+
+@media (min-width: 768px) {
+  .password-item-con {
+    width: 32%;
+    padding-bottom: 0;
+  }
+
+  .profile-txt-con {
+    height: 130px;
+    margin-top: 15px;
+  }
+
+  .website-name {
+    font-size: 24px;
+  }
+
+  .username {
+    font-size: 22px;
+  }
+
+  .password-img {
+    width: 140px;
+  }
+}
